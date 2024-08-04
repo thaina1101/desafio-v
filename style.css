@@ -1,0 +1,283 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1.5px;
+
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  color: #3F3FF5;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+.container {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.cabecalho {
+  display: flex;
+  width: 100%;
+  height: auto;
+  margin:0;
+  gap:2rem;
+  position: relative;
+}
+
+.header_data {
+  position: absolute;
+  width: 80%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.img_cabecalho {
+  width: 100%;
+  display: block;
+  z-index: -100;
+  height: auto;
+}
+
+@media (max-width:59.375rem) {
+  .header_data {
+    position: static;
+    top: 0;
+    left: 0;
+    transform: translate(0, 0);
+  }
+  .img_cabecalho {
+    width: 100%;
+  }
+  .cabecalho {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.titulo_container {
+  width: 55%;
+  max-width: 40rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.titulo__menor {
+  margin: 0;
+  color: #E45858;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+.titulo__maior > span {
+  color: #3F3FF5;
+}
+
+.cabecalho__pesquisa {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #FFFFFF;
+  border: 0.5px solid #EAEAEA;
+  padding: 1.2rem;
+  border-radius: 8px;
+  width: 60%;
+}
+
+.barra__pesquisa__div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.barra__pesquisa {
+  outline: none;
+  border: 0;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.button_search {
+  min-width: max-content;
+  padding: 12px 28px;
+  background-color: #3F3FF5;
+  border-radius: 5px;
+  border: 0;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: 400;
+}
+
+@media (max-width: 500px) {
+  body{
+    font-size: calc(1rem - 35%);
+  }
+  .titulo_container {
+    width: 100% ;
+  }
+  .header_data {
+    width: 100%;
+  }
+  .cabecalho__pesquisa {
+    width: 80%;
+    gap: 20px;
+    flex-direction: column;
+  }
+  .button_search {
+    width: 100%;
+  }
+}
+
+/* MAIN */
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem 8rem;
+  
+}
+
+.titulo__principal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.titulo__principal__texto {
+  font-size: 1.5rem;
+}
+
+.buttons__principal {
+  display: flex;
+  flex-direction: row;
+  gap: .8rem;
+  border: .5px solid #EAEAEA;
+  padding: 12px 18px;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+}
+
+.button__principal__lista {
+  cursor: pointer;
+  background-color: #3F3FF5;
+  color: white;
+  font-size: 1rem;
+  border: 0;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+}
+
+.button__principal__mapa {
+  cursor: pointer;
+  background-color: white;
+  color: #3F3FF5;
+  font-size: 1rem;
+  border: 0.5px solid #EAEAEA ;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+}
+
+@media (max-width:59.375rem) {
+main {
+  padding: 0;
+}
+.titulo__principal {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.titulo__principal__texto {
+  font-size: 1.15rem;
+} 
+}
+
+.wrapper {
+  display: grid;
+  gap: 12px;
+  height: auto;
+  margin: 0;
+  padding: 1rem;
+}
+@media (max-width: 600px) {
+  .wrapper {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+  .wrapper {
+    grid-template-columns: repeat(2, calc(50% - 10px));
+  }
+}
+
+@media (min-width: 901px) {
+  .wrapper {
+    grid-template-columns: repeat(3, calc(33.33% - 13.33px));
+  }
+}
+
+
+.ponto_turistico {
+  width: 100%;
+  height: auto;
+  border-radius: 10px 10px 0 0;
+  border: 0.5px solid #EAEAEA;
+  background-color: #f8f8f8;
+}
+
+.img_ponto_turistico {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.nome_ponto_turistico {
+  font-weight: bold;
+  text-wrap: pretty;
+}
+
+.descricao_ponto_turistico {
+  font-size: 12px;
+  text-wrap: pretty;
+}
+
+.conteudo_ponto_turistico {
+  padding: 5px 1rem;
+}
+
+.div_nome_localizacao {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.atrativos_ponto_turistico {
+  font-size: 12px;
+}
+.mapa{
+ height: 31.25rem; 
+ width: 1600;
+ border: 1px solid;
+}

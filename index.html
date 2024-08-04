@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="index.js" defer></script>
+    <title>Desafio V - Trilhas Inova</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="cabecalho">
+        <img
+          class="img_cabecalho"
+          src="src/assets/images/header.svg"
+          alt="imagem do cabeçalho"
+        />
+        <div class="header_data">
+          <div class="titulo_container">
+            <p class="titulo__menor">Encontre seu próximo destino</p>
+            <h1 class="titulo__maior">
+              Encontre os melhores <span>pontos turísticos</span> do Maranhão
+            </h1>
+          </div>
+          <div class="cabecalho__pesquisa">
+            <div class="barra__pesquisa__div">
+              <img
+                class="icon_search"
+                src="src/assets/images/icon-search.svg"
+                alt="imagem do cabeçalho"
+              />
+              <input
+                type="text"
+                class="barra__pesquisa"
+                id="barra__pesquisa"
+                placeholder="Pesquise por nome"
+              />
+            </div>
+            <button class="button_search" onclick="search_pontos_turisticos()">Buscar Agora</button>
+          </div>
+        </div>
+      </header>
+      <main>
+        <div class="titulo__principal">
+          <h3 class="titulo__principal__texto">
+            Pontos turísticos recomendados
+          </h3>
+          <div class="buttons__principal">
+            <button class="button__principal__lista">Lista</button>
+            <button class="button__principal__mapa">Mapa</button>
+          </div>
+        </div>
+        <div class="wrapper" id="wrapper">
+        </div>
+        <h1 class="titulo__maior">
+          MAPA DOS LOCAIS:
+        </h1>
+        <div id="map" class="mapa"></div>
+      </main>
+    </div>
+  </body>
+</html>

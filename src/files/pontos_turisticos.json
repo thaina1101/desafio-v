@@ -1,0 +1,50 @@
+[
+  {
+    "nome": "Caxias",
+    "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5MGwOxrev2mZDQmm_P1k9ZMXQM4hLpAuPIA&s",
+    "descricao": "Importante centro político, cultural e populacional do Maranhão, a cidade tem uma arquitetura herdada do século XIX e início do século XX no estilo português, ainda conservando boa parte de seu patrimônio histórico, e é conhecida como terra das águas cristalinas, terra dos poetas e princesinha do sertão.",
+    "localizacao": "https://www.google.com/maps/place/Caxias,+MA/@-4.868315,-43.4037067,13z/data=!3m1!4b1!4m6!3m5!1s0x78e92368fcb0553:0xe21e8f9dcdce2bbf!8m2!3d-4.8653802!4d-43.3587107!16s%2Fg%2F12203v3w?entry=ttu",
+    "atrativo": [
+      {
+        "nome": "Memorial da Balaiada",
+        "localizacao": "https://www.google.com/maps/@-4.8656129,-43.3564096,3a,75y,290.16h,76.43t/data=!3m7!1e1!3m5!1soGKyeqWgojkfM8wQIDJr_w!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3DoGKyeqWgojkfM8wQIDJr_w%26cb_client%3Dmaps_sv.share%26w%3D900%26h%3D600%26yaw%3D290.1592303001961%26pitch%3D13.569930833888847%26thumbfov%3D90!7i16384!8i8192?coh=205410&entry=ttu"
+      },
+      {
+        "nome": "Veneza",
+        "localizacao": "https://www.google.com/maps/@-4.9136854,-43.3565638,3a,90y,220.26h,75.22t/data=!3m7!1e1!3m5!1sNygEHjGYZVpjkcb1wZ7aYA!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3DNygEHjGYZVpjkcb1wZ7aYA%26cb_client%3Dmaps_sv.share%26w%3D900%26h%3D600%26yaw%3D220.26389705874487%26pitch%3D14.776770521697927%26thumbfov%3D90!7i16384!8i8192?coh=205410&entry=ttu"
+      }
+    ]
+  },
+  {
+    "nome": "Carolina",
+    "foto": "https://guiadonomadedigital.com/wp-content/uploads/2016/04/chapadadasmesas-maranhao-flickr.jpg",
+    "descricao": "Carolina é um município brasileiro do estado do Maranhão. Está localizado no sul do estado, à margem direita do rio Tocantins. É conhecido pelas suas diversas cachoeiras. Carolina é o ponto de apoio para a visita ao Parque Nacional da Chapada das Mesas, onde se localizam diversas cachoeiras e canyons.",
+    "localizacao": "https://www.google.com/maps/place/Carolina,+MA,+65980-000/@-7.3276206,-47.4803681,14z/data=!3m1!4b1!4m6!3m5!1s0x92d82ab73299951b:0xd604633f89a20a97!8m2!3d-7.3359649!4d-47.4676413!16s%2Fg%2F11bxftzryw?entry=ttu",
+    "atrativo": [
+      {
+        "nome": "Cachoeira Santuario Pedra Caída",
+        "localizacao": "https://www.google.com/maps/@-7.0459417,-47.4434888,3a,75y,74.57h,103.07t/data=!3m8!1e1!3m6!1sAF1QipNgvrqupqPP6HHrHEOlp3eCJBDRwCkJ7rtd8ZY!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipNgvrqupqPP6HHrHEOlp3eCJBDRwCkJ7rtd8ZY%3Dw900-h600-k-no-pi-13.07163039213546-ya41.56871559110235-ro0-fo90!7i11264!8i5632?coh=205410&entry=ttu"
+      },
+      {
+        "nome": "Parque Nacional da Chapada das Mesas",
+        "localizacao": "https://www.google.com/maps/place/Parque+Nacional+da+Chapada+das+Mesas/@-7.1524703,-47.1446868,3a,60y,72.05h,44.16t/data=!3m7!1e1!3m5!1sAF1QipNKqowHBUxbEEkB_yZK_ALPfJ1cH7DIoamv9Uqq!2e10!3e11!7i8192!8i4096!4m14!1m7!3m6!1s0x92d7129656a5d2f5:0x58ea4574b8240e9b!2sParque+Nacional+da+Chapada+das+Mesas!8m2!3d-7.1524703!4d-47.1446868!16s%2Fm%2F03y71lx!3m5!1s0x92d7129656a5d2f5:0x58ea4574b8240e9b!8m2!3d-7.1524703!4d-47.1446868!16s%2Fm%2F03y71lx?coh=205410&entry=ttu"
+      }
+    ]
+  },
+  {
+    "nome": "Alcântara",
+    "foto": "https://wticifes2023.ufma.br/wp-content/uploads/2022/12/Alcantara_1.jpg",
+    "descricao": "Alcântara é um município da Região Metropolitana de São Luís, no estado do Maranhão, no Brasil. Foi considerada “Cidade Monumento Nacional”, pelo acervo arquitetônico de seu Centro Histórico, dotado de belos casarões, herança de seu período aureo. Alguns em ruinas, mas mantendo a sua imponência e luxo, tombado pelo IPHAN.",
+    "localizacao": "https://www.google.com/maps/place/Alc%C3%A2ntara,+MA,+65250-000/@-2.397434,-44.4258215,15z/data=!3m1!4b1!4m6!3m5!1s0x7f65f5b089148ef:0x68efc57ab2754163!8m2!3d-2.4038968!4d-44.4153646!16s%2Fg%2F1pxy4l1f3?entry=ttu",
+    "atrativo": [
+      {
+        "nome": "Museu Histórico de Alcântara - MHA",
+        "localizacao": "https://www.google.com/maps/place/Museu+Hist%C3%B3rico+de+Alc%C3%A2ntara+-+MHA/@-2.4082133,-44.4176596,3a,75y,151.69h,82.95t/data=!3m7!1e1!3m5!1sgVPMm2EXqjPs0udGmWnoiw!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3DgVPMm2EXqjPs0udGmWnoiw%26cb_client%3Dmaps_sv.share%26w%3D900%26h%3D600%26yaw%3D151.68656860880964%26pitch%3D7.046675747803789%26thumbfov%3D90!7i13312!8i6656!4m14!1m7!3m6!1s0x7f65f72b44ac63d:0x96705bea98907110!2sMuseu+Hist%C3%B3rico+de+Alc%C3%A2ntara+-+MHA!8m2!3d-2.4081221!4d-44.4176624!16s%2Fg%2F11gtcd12_c!3m5!1s0x7f65f72b44ac63d:0x96705bea98907110!8m2!3d-2.4081221!4d-44.4176624!16s%2Fg%2F11gtcd12_c?coh=205410&entry=ttu"
+      },
+      {
+        "nome": "Casa de Cultura Aeroespacial do Centro de Lançamento de Foguetes de Alcântara",
+        "localizacao": "https://www.google.com/maps/place/Casa+de+Cultura+Aeroespacial+do+Centro+de+Lan%C3%A7amento+de+Foguetes+de+Alc%C3%A2ntara/@-2.4038839,-44.4147257,3a,90y,161.46h,94.46t/data=!3m7!1e1!3m5!1scNZLq-CGktHWsu8wVnWEPg!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3DcNZLq-CGktHWsu8wVnWEPg%26cb_client%3Dmaps_sv.share%26w%3D900%26h%3D600%26yaw%3D161.463299107613%26pitch%3D-4.4573594259154845%26thumbfov%3D90!7i13312!8i6656!4m14!1m7!3m6!1s0x7f65fa48447dc9b:0xa46cdca112d9ad81!2sIlha+do+Livramento!8m2!3d-2.4204562!4d-44.4233036!16s%2Fg%2F11c61qktfk!3m5!1s0x7f65f6b8cd9a7bd:0x1d4ba0b9fdc74f5!8m2!3d-2.4039728!4d-44.4147799!16s%2Fg%2F11dzw5bwmc?coh=205410&entry=ttu"
+      }
+    ]
+  }  
+]
